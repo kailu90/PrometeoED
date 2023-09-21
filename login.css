@@ -1,0 +1,100 @@
+/*****Estilos Generales***/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --fondo: #263460;
+  --fondo1:#293770;
+  --texto: #ffffff;  
+  --gradient_btn: linear-gradient(#F5BB00, #E46336);
+}
+body {
+  font-size: 62.5%;
+  background-color: var(--fondo1);
+  font-family: 'PT Sans Caption', sans-serif;
+}
+/*****Estilos Main***/
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.main .login_container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 150px 150px 0 0;
+  background: var(--fondo);
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.main img {
+  width: 280px;
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+.main .login_bienvenida {
+  width: 210px;
+  font-size: 1rem;
+  color: var(--texto);
+  margin-bottom: 40px; 
+}
+.main .login_formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+.main .login_formulario input {
+  background: transparent; 
+  border-radius: 5px; 
+  border-color: var(--texto);
+  width: 280px;
+  height: 36px;
+  margin: 10px 40px;  
+  padding: 5px 10px;
+}
+.main .login_formulario input::placeholder {
+  color: var(--texto);
+}
+.login_formulario_checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-bottom: 20px;
+}
+.login_formulario_checkbox input {
+  width: 20px;
+  height: 20px;
+  margin: 10px 0;
+  background: var(--gradient_btn);
+}
+ .login_formulario_checkbox label {
+  width: 100px;
+  height: 20px; 
+  color: var(--texto);
+  font-size: 0.8rem;
+}
+.btn_login {    
+  background: var(--gradient_btn);
+  border-radius: 10px;
+  width: 120px;
+  height: 34px;
+  color: var(--texto);
+  font-weight: bold;
+  justify-self: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.main a {
+  color: var(--texto);
+  text-decoration: none;
+  font-size: 1rem;
+}

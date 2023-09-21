@@ -1,0 +1,37 @@
+/*****Estilos Generales***/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --fondo: #263460;
+  --fondo1:#293770;
+  --texto: #ffffff;  
+  --gradient_btn: linear-gradient(#F5BB00, #E46336);
+}
+body {
+  font-size: 62.5%;
+  background-color: var(--fondo1);
+  font-family: 'PT Sans Caption', sans-serif;
+}
+/*****Estilos Main***/
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--fondo);
+  margin-top: 40px;
+  border-radius: 200px 200px 0 0 ;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.main .logo {
+  margin: 0 auto 40px auto;
+  max-width: 230px;
+}
+.main .icon_logo {
+  width: 35px;
+  height: 35px;
+}
