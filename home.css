@@ -4,17 +4,9 @@
   margin: 0;
   padding: 0;
 }
-:root {
-  --fondo: #263460;
-  --fondo1:#293770;
-  --fondo2: #D8D9DA;
-  --texto: #ffffff;  
-  --gradient_btn: linear-gradient(#F5BB00, #E46336);
-  --fondo2: #D8D9DA;
-}
 body {
   font-size: 62.5%;
-  background-color: var(--texto);
+  background-color: #ffffff;
   font-family: 'PT Sans Caption', sans-serif;
 }
 /*****Estilos Main***/
@@ -37,13 +29,13 @@ body {
   display: flex;
   flex-direction: column;
   position: relative;
-  background: var(--fondo2);
+  background: #D8D9DA;
   width: 100vw;
   height: 100vh;
   border-radius: 150px 150px 0 0;
   justify-content: center;
   align-items: center;
-  color: var(--fondo1);
+  color: #293770;
   font-size: em;
 }
 .home_image {
@@ -68,7 +60,7 @@ body {
   left: calc(50vw-100px);
   width: 200px;
   height: 40px;
-  background: var(--gradient_btn);
+  background: linear-gradient(#F5BB00, #E46336);
   border-radius: 10px;
   border: 1px solid var(--texto);
   color: var(--texto);

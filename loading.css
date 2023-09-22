@@ -4,15 +4,9 @@
   margin: 0;
   padding: 0;
 }
-:root {
-  --fondo: #263460;
-  --fondo1:#293770;
-  --texto: #ffffff;  
-  --gradient_btn: linear-gradient(#F5BB00, #E46336);
-}
 body {
   font-size: 62.5%;
-  background-color: var(--fondo1);
+  background-color: #293770;
   font-family: 'PT Sans Caption', sans-serif;
 }
 /*****Estilos Main***/
@@ -20,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: var(--fondo);
+  background: #263460;
   margin-top: 40px;
   border-radius: 200px 200px 0 0 ;
   align-items: center;
