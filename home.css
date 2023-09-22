@@ -74,6 +74,7 @@ body {
   flex-direction: column;
   width: 210px;  
   font-size: 1rem;
+  margin-top: 150px;
 }
 .home_texto h2 {
   margin-bottom: 120px;
