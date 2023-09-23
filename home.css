@@ -62,8 +62,8 @@ body {
   height: 40px;
   background: linear-gradient(#F5BB00, #E46336);
   border-radius: 10px;
-  border: 1px solid var(--texto);
-  color: var(--texto);
+  border: 1px solid #ffffff;
+  color: #ffffff;
   font-weight: bold;
 }
 .btn_home i {
