@@ -8,6 +8,9 @@ body {
   font-size: 62.5%;
   background-color: #ffffff;
   font-family: 'PT Sans Caption', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 /*****Estilos Main***/
 .main {
@@ -17,7 +20,7 @@ body {
   align-items: center;
   text-align: center;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 100px);
 }
 .main .logo {
   margin-top: 100px;
@@ -31,9 +34,9 @@ body {
   position: relative;
   background: #D8D9DA;
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   border-radius: 150px 150px 0 0;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
   color: #293770;
   font-size: em;
@@ -74,7 +77,7 @@ body {
   flex-direction: column;
   width: 210px;  
   font-size: 1rem;
-  margin-top: 150px;
+  margin-bottom: 80px;
 }
 .home_texto h2 {
   margin-bottom: 120px;
@@ -89,4 +92,29 @@ body {
   justify-content: center;
   display: flex;
   border-radius: 20px;
+}
+/****Footer***/
+.footer {  
+  position: relative;
+  display: flex;  
+  height: 100px;
+  align-items: center;
+  background: #FFFFFF;
+  justify-content: center;
+}
+.footer_container {   
+  display: flex; 
+  width: 320px;
+  max-width: 400px; 
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.footer_punto {
+  position: absolute;
+  top: 37px;
+  left: calc(50vw + 153px);
+  width: 5.5px;
+  height: 5.5px;
+  border-radius: 50%;
+  background: red;
 }
