@@ -12,6 +12,7 @@ body {
 /****Header Puntos***/
 .header {
   display: flex;
+  height: 82px;
   justify-content: space-between;
   background: #293770;
   padding: 20px 30px;

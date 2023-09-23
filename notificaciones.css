@@ -1,0 +1,69 @@
+/****Estilos Generales***/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 62.5%;
+  background-color:  #ffffff;
+  font-family: 'Poppins', sans-serif;
+}
+/****Header Puntos***/
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 82px;
+  background: #293770;
+  padding: 20px 30px;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+.header_logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #EE6432;
+}
+.header_logo p {
+  margin-left: 10px;
+}
+/*****Main notificaciones****/
+.card1_container {
+  display: flex;
+  height: max-content;
+  justify-content: space-between;
+  margin: 20px 55px;
+  align-items: center;
+  border-bottom: 1px solid #E2E2E2;
+}
+.card1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 0.7rem; 
+}
+.card1_image {
+  margin-right: 20px;
+}
+.card1_descripcion {  
+  color: #424242; 
+}
+.card1_descripcion p{
+  margin-bottom: 5px;
+}
+.card1_punto {
+  width: 10px;
+  height: 10px;
+  background: red;
+  border-radius: 20px;
+}
+.btn_card1 {
+  width: 100px;
+  height: 28px;
+  background: transparent;
+  border-radius: 10px;
+  border: 1px solid #8B8B8B;
+  color: #8B8B8B;
+  margin-bottom: 20px;
+}
