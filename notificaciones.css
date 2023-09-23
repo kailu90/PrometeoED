@@ -37,6 +37,12 @@ body {
   align-items: center;
   border-bottom: 1px solid #E2E2E2;
 }
+.card1_container_selected .card1_descripcion button {
+  visibility: hidden;
+}
+.card1_container_selected .card1_punto {
+  background: #89C33F;
+}
 .card1 {
   display: flex;
   align-items: center;
