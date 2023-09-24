@@ -1,0 +1,165 @@
+/****Estilos Generales***/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 62.5%;
+  background-color:  #ffffff;
+  font-family: 'Poppins', sans-serif;  
+}
+/****Header Inspirate***/
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: 82px;
+  background: #293770;
+  padding: 20px 30px;
+  font-family: 'PT Sans Caption', sans-serif;
+}
+.header_logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #EE6432;
+}
+.header_logo p {
+  margin-left: 10px;
+}
+/*****Main Inspirate****/
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 400px;
+  height: calc(100vh - 172px);
+  align-items: center;
+  margin: 20px auto 0 0;
+  overflow: hidden;
+}
+.main > .card2 {
+  align-items: center;
+}
+.card2_container {
+  display: flex;
+  width: 393px;
+  flex-direction: column;    
+  margin: 10px 30px 0 130px; 
+  justify-content: center; 
+}
+.card2 {
+  display: flex;
+  width: 286px;
+  height: 83px;
+  align-items: center;
+}
+.card2_image {
+  width: 28px;
+  height: 28px;
+  margin-right: 14px;
+  padding-left: 5px;
+}
+.card2_descripcion {
+  display: flex;
+  width: 244px;
+  height: 83px;
+  align-items: center;  
+  padding: 0 20px ;
+  background: rgba(226, 226, 226, 1);
+  border-radius: 30px 30px 30px 0;  
+}
+.card2_selected {
+  background: rgba(137, 195, 63, 1); 
+}
+.card2_descripcion p {
+  padding: 0 20px;
+  text-align: start;
+  font-size: 0.7rem;
+  color:rgba(66, 66, 66, 1);
+}
+.card2_selected p {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-size: 0.7rem;
+}
+.card3_container {
+  display: flex;
+  width: 393px;
+  flex-direction: column;
+  align-items: end;
+  margin-top: 10px;
+}
+.card3 {
+  display: flex;
+  width: 286px;
+  height: 83px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+.card3_descripcion {
+  display: flex;
+  width: 200px;
+  height: 83px;
+  align-items: center;  
+  padding: 10px 20px ;
+  background: rgba(171, 182, 226, 1);
+  border-radius: 30px 30px 0 30px; 
+}
+.card3_descripcion p {
+  padding: 20px;
+  text-align: start;
+  font-size: 0.7rem;
+  color:rgba(66, 66, 66, 1);
+}
+.fecha_container {  
+  margin: 10px auto 0 auto;
+  font-size: 0.7rem;
+}
+/******Footer Inspirate***/
+.footer {
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  position: fixed;
+  width: 100vw; 
+  height: 50px;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.25);  
+}
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 393px;    
+  min-width: 320px;
+}
+.footer_container img {
+  width: auto;
+  height: 28px;
+}
+.input_footer_container {
+  height: 30px;  
+}
+.input_footer_container input {
+  height: 100%;
+  border-radius: 10px 0 0 10px;
+  border: transparent;
+  background: rgba(226, 226, 226, 1);
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.input_footer_container input::placeholder {
+  font-weight: 400;
+  font-size: 0.8rem;
+  color:rgba(66, 66, 66, 1);
+}
+.input_footer_container button {
+  height: 100%;
+  border: transparent;
+  border-radius: 0 10px 10px 0;
+  background: rgba(226, 226, 226, 1);
+  padding-right: 20px;
+  font-weight: 700;
+}
