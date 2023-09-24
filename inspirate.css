@@ -128,7 +128,7 @@ body {
   display: flex;
   justify-content: space-between;
   max-width: 393px;    
-  min-width: 320px;
+  min-width: 330px;
 }
 .footer_container img {
   width: auto;
